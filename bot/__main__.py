@@ -56,7 +56,7 @@ Type /{BotCommands.HelpCommand} to get a list of available commands
         sendMarkup(start_string, context.bot, update, reply_markup)
     else:
         sendMarkup(
-            'Oops! not a Authorized user.',
+            'Oops! not a Authorized user. please contact @hyarsbot for use the bot',
             context.bot,
             update,
             reply_markup,
